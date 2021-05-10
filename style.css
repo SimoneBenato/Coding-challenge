@@ -1,0 +1,85 @@
+/* css tag generici */
+
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  color: lime;
+  text-align: center;
+}
+
+h2, span {
+  color: white;
+  display: inline-block;
+  margin: 0;
+}
+
+body {
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+}
+
+/* css ''sfondo nero'' */
+
+.blocco-pagina {
+  background-color: rgba(0,0,0,0.5);
+  padding: 7%;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+/* css in intestazione */
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+.intestazione {
+  margin: auto;
+  text-align: center;
+}
+
+/* css linea navigazione */
+
+.bottoni {
+  background-color: lime;
+  padding: 10px;
+  width: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* css lista monopattini */
+
+.linea-colorata1 {
+  width: 300px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.linea-colorata2 {
+  width: 500px;
+  height: 30px;
+  background-color: green;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.linea-colorata3 {
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.opzioni {
+  width: auto;
+  height: auto;
+}
